@@ -1,0 +1,54 @@
+# === Java + Maven ===
+target/
+*.class
+*.jar
+*.war
+
+# Maven Wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# === IDEs ===
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === Logs & Temp ===
+*.log
+*.tmp
+*.swp
+*~
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Build Artifacts in Source Folders (Exclude nested targets/builds) ===
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/**
